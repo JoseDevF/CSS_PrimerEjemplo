@@ -11,6 +11,10 @@ h1 {
     background-color: grey;
 }
 
+#ejemploNegritas {
+    font-weight: bold;
+}
+
 .ejhg {
     width: 180px;
     height: 180px;
