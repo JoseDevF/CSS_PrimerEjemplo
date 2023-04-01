@@ -19,6 +19,12 @@ h1 {
     width: 180px;
     height: 180px;
     background-color: brown;
+    position: relative;
+}
+
+.ejhg .dummy {
+    position: relative;
+    z-index: -1;
 }
 
 .ejhg:hover {
@@ -52,4 +58,16 @@ body .ejhg>P {
     width: 80%;
     height: 80%;
     background-color: green;
+}
+
+.flexContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.ejemploFlex {
+    background-color: #8FD5A6;
+    flex-grow: 5;
+    min-width: 400px;
 }
